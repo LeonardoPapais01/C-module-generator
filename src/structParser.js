@@ -1,5 +1,3 @@
-var test1 = "typedef struct system_message_s { \n  int fd; \n  int index; \n  char* index_str; \n char* customer_key; \n  int period; \n  int number_of_dimensions; \n  char** dimensions; \n  int number_of_metrics; \n  char** metrics; \n  int number_of_log_only; \n  char** log_only; \n  int customer_type; \n  char* customer_name; \n  int set_rt_old_period_is_alloced; \n} System_message;"
-console.log(test1)
 var typedefName = ''
 var parsedStructToJSON = {
   typedefName: 'System_message',
@@ -8,17 +6,7 @@ var parsedStructToJSON = {
     fd: "int",
     index: "int",
     index_str: "char*",
-    customer_key: "char*",
-    period: "int",
-    number_of_dimensions: "int",
-    dimensions: "char**",
-    number_of_metrics: "int",
-    metrics: "char**",
-    number_of_log_only: "int",
-    log_only: "char**",
-    customer_type: "int",
-    customer_name: "char*",
-    set_rt_old_period_is_alloced: "int"
+    dimensions: "char**"
   }
 }
 var findStruct = function(array, from){
